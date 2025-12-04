@@ -1,0 +1,31 @@
+@use '../../styles/colors' as c;
+@use '../../styles/fonts' as f;
+
+html, body, #root, #screen, main {
+    margin: 0;
+    transition: background-color 1s ease, color 1s ease;
+    
+    body {
+        //font
+        font-family: f.$title-font;
+        font-weight: 400;
+        line-height: 1.6;
+        color: c.$black;
+        background-color: c.$mustard;
+
+        //
+
+    }
+    
+    
+    
+    h2 {
+        font-family: f.$body-font;
+        font-weight: 700;
+        font-size: clamp(1.25rem, 3vw, 1.5rem);
+        line-height: 1.2;
+        margin: 1.5em 0 0.4em;
+        color: c.$black
+    }
+    
+}

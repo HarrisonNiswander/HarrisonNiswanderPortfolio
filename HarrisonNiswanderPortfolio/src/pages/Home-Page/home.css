@@ -1,0 +1,19 @@
+html, body, #root, #screen, main {
+  margin: 0;
+  transition: background-color 1s ease, color 1s ease;
+}
+html body, body body, #root body, #screen body, main body {
+  font-family: Trebuchet MS, sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  color: hsl(0, 0%, 0%);
+  background-color: hsl(49, 93%, 52%);
+}
+html h2, body h2, #root h2, #screen h2, main h2 {
+  font-family: Times, Times New Roman, serif;
+  font-weight: 700;
+  font-size: clamp(1.25rem, 3vw, 1.5rem);
+  line-height: 1.2;
+  margin: 1.5em 0 0.4em;
+  color: hsl(0, 0%, 0%);
+}/*# sourceMappingURL=home.css.map */
