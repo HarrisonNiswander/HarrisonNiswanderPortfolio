@@ -3,6 +3,7 @@ import { createRoot } from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import HomePage from "./pages/Home-Page/homePage.jsx";
 import About from "./pages/About/about.jsx";
+import Portfolio from "./pages/Portfolio/portfolio.jsx";
 import NotFound from "./pages/Not-Found-Page/notFoundPage.jsx";
 
 const router = createBrowserRouter([
@@ -16,6 +17,12 @@ const router = createBrowserRouter([
     //About Page Route
     path: "/about",
     element: <About />
+  }, 
+
+  {
+    //Portfolio Page Route
+    path: "/portfolio",
+    element: <Portfolio />
   }, 
 
   {
