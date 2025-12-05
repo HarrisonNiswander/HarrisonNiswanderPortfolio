@@ -1,9 +1,12 @@
 import { Link } from 'react-router-dom';
 import React from 'react';
+import Header from '../../components/header/header.jsx';
 
 function notFoundPage() {
     return (
         <div>
+            <Header />
+
             <h1>404 - Page Not Found</h1>
             <p>
                 Sorry! The Page you are Looking for doesn't exit. 
