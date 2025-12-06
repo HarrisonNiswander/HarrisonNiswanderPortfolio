@@ -1,32 +1,37 @@
 @use '../../../styles/colors' as c;
 @use '../../../styles/fonts' as f;
 
-.header_nav
+.footer_nav
 {
     margin-top: 0em;
     display: flexbox;
     justify-content: space-evenly; 
     align-items: center;
     width: 100%;
-    height: 4.5em;
-    background-color: c.$black;
+    padding-left: 1.5em;
+    padding-bottom: 0em;
+
+    background-color: c.$white !important;
+    position: fixed;
+    bottom: 0;
 
     ul{
         
         margin-top: 0em;
-        padding: 0.3em;
+        padding-top: 0.3em;
         display: flex;
         justify-content: space-evenly; 
-        align-items: center;
-        color: c.$white;
-        flex-direction: row;
+        align-items: left;
+        color: c.$black;
+        flex-direction: column;
         font-family: f.$title-font;
-        font-size: 2em; 
-        left: 0.5em;
+        font-size: 1.5em; 
+        left: 1.3em;
+
 
         a {
             text-decoration: none;
-            color: c.$white;
+            color: c.$black;
         }
 
         a:hover {
@@ -36,12 +41,11 @@
 
         img {
             display: flex;
-            align-self: left ;
-            margin-right: auto;
-            margin-left: 0.1em;
-            position: absolute;
-            top: 0.3em;
-            left: 1.3em;
+            align-self: center ;
+            margin-left: auto;
+            margin-right: 0.1em;
+            position: relative;
+            right: 2em;
 
         }
     }

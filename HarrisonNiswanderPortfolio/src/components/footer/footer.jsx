@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
-import './header_style/header.css';
-import HN_Signature from '../../images/HN_Signature.png';
+import './footer_style/footer.css';
+import HN_SignatureW from '../../images/HN_SignatureW.png';
 
-export default function header() {
+export default function footer() {
     return (
         <>
             {/*Navigation Menu*/}
@@ -12,17 +12,19 @@ export default function header() {
             </header>
             
             {/*Navigation Menu*/}
-            <nav class="header_nav">
+            <nav class="footer_nav">
                 <ul>
-                    {/*Image*/}
-                    <Link to="/home">
-                        <img src={HN_Signature} alt="Harrison Niswander Signature" height={50} width={130}/>
-                    </Link>
+                    
 
                     <Link to="/home">Home</Link>
                     <Link to="/about">About</Link>
                     <Link to="/portfolio">Portfolio</Link>
                     <Link to="/contact">Contact</Link>
+
+                    {/*Image*/}
+                    <Link to="/home">
+                        <img src={HN_SignatureW} alt="Harrison Niswander Signature" height={90} width={180}/>
+                    </Link>
 
                 </ul>
 
