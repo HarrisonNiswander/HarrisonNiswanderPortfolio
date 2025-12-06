@@ -6,28 +6,26 @@ export default function footer() {
     return (
         <>
             {/*Navigation Menu*/}
-            <header>
-                
-
-            </header>
-            
-            {/*Navigation Menu*/}
             <nav class="footer_nav">
                 <ul>
-                    
-
                     <Link to="/home">Home</Link>
                     <Link to="/about">About</Link>
                     <Link to="/portfolio">Portfolio</Link>
                     <Link to="/contact">Contact</Link>
 
-                    {/*Image*/}
-                    <Link to="/home">
-                        <img src={HN_SignatureW} alt="Harrison Niswander Signature" height={90} width={180}/>
-                    </Link>
-
                 </ul>
 
+                <ul class="footer_copyright">
+                    {/*Image*/}
+                    <Link to="/home">
+                        <img src={HN_SignatureW} alt="Harrison Niswander Signature" height={75} width={150}/>
+                        
+                    </Link>
+
+                    <p>© 2025 Harrison Niswander</p>
+
+                </ul>
+                
             </nav>
 
         </>
