@@ -22,7 +22,7 @@ export default function footer() {
                         
                     </Link>
 
-                    <p>© 2025 Harrison Niswander</p>
+                    <p class="copyright_p">© 2025 Harrison Niswander</p>
 
                 </ul>
                 

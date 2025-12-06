@@ -46,6 +46,6 @@ p {
   color: hsl(0, 0%, 0%);
 }
 
-p:hover {
+.copyright_p:hover {
   color: hsl(49, 93%, 52%);
 }/*# sourceMappingURL=footer.css.map */
