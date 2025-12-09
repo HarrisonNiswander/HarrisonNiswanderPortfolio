@@ -1,31 +1,99 @@
 @use '../../../styles/colors' as c;
 @use '../../../styles/fonts' as f;
 
-html, body, #root, #screen, main {
+html, body, main {
     margin: 0;
     transition: background-color 1s ease, color 1s ease;
-    
-    body {
-        //font
-        font-family: f.$title-font;
-        font-weight: 400;
-        line-height: 1.6;
-        color: c.$black;
-        background-color: c.$mustard;
+}
 
-        //
+body {
+    //font
+    font-family: f.$title-font;
+    font-weight: 400;
+    line-height: 1.6;
+    color: c.$black;
+    background-color: c.$mustard;
 
-    }
+}
+
+header{
+    margin-left: 1.3em;
+    margin-right: 1.3em;
+}
+ 
+.outermost-container{
+    display: grid;
+    margin: auto;
+    padding: 1.1em;
+    width: 95%;
+    height: 100%;
+    background-color:c.$light-yellow;
+    box-shadow: 4px 4px 10px c.$dark-gray;
+    border-radius: 3em;
+
+}
+
+/*
+.row1, .row2{
     
+    display: flex;
+    flex-direction: row;
+    background-color: c.$black;
+    min-height: 20em;
+    max-height: 24.0em;
+    width: 45%;
+    height: 100%;
+    //background-color:c.$mint-green;
+    //box-shadow: 4px 4px 10px c.$dark-gray;
+    //border-radius: 2em;
+    margin:0;
     
-    
-    h2 {
-        font-family: f.$body-font;
-        font-weight: 700;
-        font-size: clamp(1.25rem, 3vw, 1.5rem);
-        line-height: 1.2;
-        margin: 1.5em 0 0.4em;
-        color: c.$black
-    }
-    
+
+}
+*/
+
+.row1, .row2{
+    margin:0;
+    display: flex;
+    flex-direction: row;
+    //background-color: c.$black;
+    justify-content: space-evenly;
+    padding-right:1.3em;
+    padding-left:1.3em;
+}
+
+.item{
+    display: flex;
+    flex-direction: row;
+    background-color: c.$black;
+    min-height: 10em;
+    max-height: 12.0em;
+    width: 45%;
+    height: 100%;
+    background-color:c.$mint-green;
+    box-shadow: 4px 4px 10px c.$dark-gray;
+    border-radius: 2em;
+    margin:0;
+}
+
+.item:hover{
+    background-color:c.$teal;
+    transform: scale(1.04);
+}
+
+h1 {
+    font-family: f.$title-font;
+    font-weight: 700;
+    font-size: clamp(1.75rem, 3vw, 1.5rem);
+    line-height: 1.2;
+    margin: 1.5em 0 0.4em;
+    color: c.$black
+}
+h3 {
+    font-family: f.$body-font;
+    font-weight: 200;
+    font-size: clamp(0.5rem, 3vw, 1.2rem);
+    line-height: 1.2;
+    margin: 1.5em 0 0.4em;
+    color: c.$black
 }

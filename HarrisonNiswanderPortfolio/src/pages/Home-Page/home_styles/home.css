@@ -1,18 +1,91 @@
-html, body, #root, #screen, main {
+html, body, main {
   margin: 0;
   transition: background-color 1s ease, color 1s ease;
 }
-html body, body body, #root body, #screen body, main body {
+
+body {
   font-family: Trebuchet MS, sans-serif;
   font-weight: 400;
   line-height: 1.6;
   color: hsl(0, 0%, 0%);
   background-color: hsl(49, 93%, 52%);
 }
-html h2, body h2, #root h2, #screen h2, main h2 {
-  font-family: Times, Times New Roman, serif;
+
+header {
+  margin-left: 1.3em;
+  margin-right: 1.3em;
+}
+
+.outermost-container {
+  display: grid;
+  margin: auto;
+  padding: 1.1em;
+  width: 95%;
+  height: 100%;
+  background-color: hsl(49, 90%, 73%);
+  box-shadow: 4px 4px 10px hsl(0, 0%, 51%);
+  border-radius: 3em;
+}
+
+/*
+.row1, .row2{
+
+    display: flex;
+    flex-direction: row;
+    background-color: c.$black;
+    min-height: 20em;
+    max-height: 24.0em;
+    width: 45%;
+    height: 100%;
+    //background-color:c.$mint-green;
+    //box-shadow: 4px 4px 10px c.$dark-gray;
+    //border-radius: 2em;
+    margin:0;
+
+
+}
+*/
+.row1, .row2 {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-right: 1.3em;
+  padding-left: 1.3em;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  background-color: hsl(0, 0%, 0%);
+  min-height: 10em;
+  max-height: 12em;
+  width: 45%;
+  height: 100%;
+  background-color: hsl(142, 90%, 59%);
+  box-shadow: 4px 4px 10px hsl(0, 0%, 51%);
+  border-radius: 2em;
+  margin: 0;
+}
+
+.item:hover {
+  background-color: hsl(178, 100%, 50%);
+  transform: scale(1.04);
+}
+
+h1 {
+  font-family: Trebuchet MS, sans-serif;
   font-weight: 700;
-  font-size: clamp(1.25rem, 3vw, 1.5rem);
+  font-size: clamp(1.75rem, 3vw, 1.5rem);
+  line-height: 1.2;
+  margin: 1.5em 0 0.4em;
+  color: hsl(0, 0%, 0%);
+}
+
+h3 {
+  font-family: Times, Times New Roman, serif;
+  font-weight: 200;
+  font-size: clamp(0.5rem, 3vw, 1.2rem);
   line-height: 1.2;
   margin: 1.5em 0 0.4em;
   color: hsl(0, 0%, 0%);
