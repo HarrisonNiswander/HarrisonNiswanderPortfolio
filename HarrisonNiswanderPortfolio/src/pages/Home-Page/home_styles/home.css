@@ -22,29 +22,11 @@ header {
   padding: 1.1em;
   width: 95%;
   height: 100%;
-  background-color: hsl(49, 90%, 73%);
-  box-shadow: 4px 4px 10px hsl(0, 0%, 51%);
+  background-color: rgba(161, 94, 23, 0.874);
+  box-shadow: 4px 4px 10px hsl(0, 0%, 0%);
   border-radius: 3em;
 }
 
-/*
-.row1, .row2{
-
-    display: flex;
-    flex-direction: row;
-    background-color: c.$black;
-    min-height: 20em;
-    max-height: 24.0em;
-    width: 45%;
-    height: 100%;
-    //background-color:c.$mint-green;
-    //box-shadow: 4px 4px 10px c.$dark-gray;
-    //border-radius: 2em;
-    margin:0;
-
-
-}
-*/
 .row1, .row2 {
   margin: 0;
   display: flex;
@@ -54,7 +36,7 @@ header {
   padding-left: 1.3em;
 }
 
-.item {
+.port, .ultimate, .contact, .about {
   display: flex;
   flex-direction: row;
   background-color: hsl(0, 0%, 0%);
@@ -62,15 +44,49 @@ header {
   max-height: 12em;
   width: 45%;
   height: 100%;
-  background-color: hsl(142, 90%, 59%);
-  box-shadow: 4px 4px 10px hsl(0, 0%, 51%);
+  background-color: hsl(48, 84%, 51%);
+  box-shadow: 4px 4px 10px hsl(0, 0%, 0%);
   border-radius: 2em;
-  margin: 0;
+  margin: auto;
+  padding-right: 1.5em;
+  padding-bottom: 0.5em;
+  justify-content: flex-end;
+  text-align: center;
+  align-items: end;
 }
 
-.item:hover {
-  background-color: hsl(178, 100%, 50%);
+.port:hover, .ultimate:hover, .contact:hover, .about:hover {
+  background-color: hsl(49, 90%, 73%);
   transform: scale(1.04);
+  cursor: pointer;
+}
+
+.about {
+  background-image: url("../../../images/harrison-run2.JPG");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 65% 115%;
+}
+
+.contact {
+  background-image: url("../../../images/harrison-run.JPG");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 65% 135%;
+}
+
+.ultimate {
+  background-image: url("../../../images/lime-city-ult-logo.jpeg");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 65% 115%;
+}
+
+.port {
+  background-image: url("../../../images/island-song.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 65% 100%;
 }
 
 h1 {
