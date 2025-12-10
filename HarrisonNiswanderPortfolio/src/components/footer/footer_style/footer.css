@@ -1,13 +1,12 @@
 .footer_nav {
-  margin-top: 0em;
+  margin-top: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
   padding: 0;
   background-color: hsl(0, 0%, 100%) !important;
-  position: fixed;
-  bottom: 0;
+  position: absolute;
 }
 .footer_nav ul {
   display: flex;
