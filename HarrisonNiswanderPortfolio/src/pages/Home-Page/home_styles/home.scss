@@ -24,13 +24,14 @@ header{
 .outermost-container{
     display: grid;
     margin: auto;
-    padding: 1.1em;
+    //padding: 1.1em;
     width: 95%;
     height: 100%;
     background-color:c.$brown;
     box-shadow: 4px 4px 10px c.$black;
     border-radius: 3em;
-
+    padding-top:2.8em;
+    padding-bottom:3em;
 }
 
 .row1, .row2{
@@ -60,6 +61,8 @@ header{
     justify-content:flex-end;
     text-align: center;
     align-items:end;
+    transition: 0.6s ease;
+    backface-visibility: hidden;
 }
 
 %image-hover{
@@ -73,12 +76,13 @@ header{
     background-image: url("../../../images/harrison-run2.JPG");
     background-repeat: no-repeat;
     background-position: left;
-    background-size: 65% 115%;
+    background-size: 65% 112%;
     
 }
 
 .about:hover{
     @extend %image-hover;
+    opacity: 0.7;
 }
 
 .contact{
@@ -92,6 +96,7 @@ header{
 
 .contact:hover{
     @extend %image-hover;
+    opacity: 0.7;
 }
 
 .ultimate{
@@ -105,6 +110,7 @@ header{
 
 .ultimate:hover{
     @extend %image-hover;
+    opacity: 0.7;
 }
 
 .port{
@@ -118,6 +124,7 @@ header{
 
 .port:hover{
     @extend %image-hover;
+    opacity: 0.7;
 }
 
 h1 {

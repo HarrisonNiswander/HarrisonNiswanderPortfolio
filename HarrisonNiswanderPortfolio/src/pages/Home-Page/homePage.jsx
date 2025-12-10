@@ -53,7 +53,8 @@ const homePage = () => {
         <div class="outermost-container">
           <ul class="row1">
             <a class="about" onClick={aboutPageClick}>
-              <h1>About Me</h1>
+              
+              <h1 class="not-hidden">About Me</h1>
 
             </a>  {/* About Page */}
 
@@ -83,8 +84,8 @@ const homePage = () => {
 
       </main>
 
-      <br/><br/><br/><br/> {/* Break */}
-
+      <br/><br/><br/>{/* Break */}
+    
       <Footer/>
 
     </div>
