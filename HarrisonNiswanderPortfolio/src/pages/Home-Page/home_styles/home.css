@@ -69,6 +69,7 @@ header {
   background-repeat: no-repeat;
   background-position: left;
   background-size: 65% 112%;
+  animation: slideInFromLeft 1.5s ease forwards;
 }
 
 .about:hover {
@@ -80,6 +81,7 @@ header {
   background-repeat: no-repeat;
   background-position: left;
   background-size: 65% 135%;
+  animation: slideInFromLeft 1.5s ease forwards;
 }
 
 .contact:hover {
@@ -91,6 +93,7 @@ header {
   background-repeat: no-repeat;
   background-position: left;
   background-size: 65% 115%;
+  animation: slideInFromRight 1.5s ease forwards;
 }
 
 .ultimate:hover {
@@ -102,6 +105,7 @@ header {
   background-repeat: no-repeat;
   background-position: left;
   background-size: 65% 100%;
+  animation: slideInFromRight 1.5s ease forwards;
 }
 
 .port:hover {
@@ -124,4 +128,21 @@ h3 {
   line-height: 1.2;
   margin: 1.5em 0 0.4em;
   color: hsl(0, 0%, 0%);
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-200%); /* Start off-screen */
+  }
+  100% {
+    transform: translateX(0); /* End in its natural position */
+  }
+}
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(200%); /* Start off-screen */
+  }
+  100% {
+    transform: translateX(0); /* End in its natural position */
+  }
 }/*# sourceMappingURL=home.css.map */
