@@ -60,7 +60,7 @@ header {
 
 .port:hover, .ultimate:hover, .contact:hover, .about:hover {
   background-color: hsl(49, 90%, 73%);
-  transform: scale(1.04);
+  transform: translateX(0) scale(1.05) !important;
   cursor: pointer;
 }
 
@@ -132,17 +132,17 @@ h3 {
 
 @keyframes slideInFromLeft {
   0% {
-    transform: translateX(-200%); /* Start off-screen */
+    transform: translateX(-200%) scale(1); /* Start off-screen */
   }
   100% {
-    transform: translateX(0); /* End in its natural position */
+    transform: translateX(0) scale(1); /* End in its natural position */
   }
 }
 @keyframes slideInFromRight {
   0% {
-    transform: translateX(200%); /* Start off-screen */
+    transform: translateX(200%) scale(1); /* Start off-screen */
   }
   100% {
-    transform: translateX(0); /* End in its natural position */
+    transform: translateX(0) scale(1); /* End in its natural position */
   }
 }/*# sourceMappingURL=home.css.map */

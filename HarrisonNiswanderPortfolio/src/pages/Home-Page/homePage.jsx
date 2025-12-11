@@ -36,7 +36,7 @@ const homePage = () => {
       <header>
         <h1>Welcome to Harrison Niswander's Portfolio!</h1>
 
-        <section class="intro">
+        <section className="intro">
           <h3>
             Here, you'll find a showcase of my projects, skills, and experiences as a developer. Feel free to 
             explore the different sections to learn more about me and my work. If you have any questions or 
@@ -50,15 +50,15 @@ const homePage = () => {
       
       {/* Different Pages Section */}
       <main>
-        <div class="outermost-container">
-          <ul class="row1">
-            <a class="about" onClick={aboutPageClick}>
+        <div className="outermost-container">
+          <ul className="row1">
+            <a className="about" onClick={aboutPageClick}>
               
-              <h1 class="not-hidden">About Me</h1>
+              <h1 className="not-hidden">About Me</h1>
 
             </a>  {/* About Page */}
 
-            <div class="port" onClick={portfolioPageClick}>
+            <div className="port" onClick={portfolioPageClick}>
               <h1>Portfolio</h1>
 
             </div>  {/* Portfolio Page */}
@@ -67,13 +67,13 @@ const homePage = () => {
 
           <br/>{/* Break */}
 
-          <ul class="row2">
-            <div class="contact" onClick={contactPageClick}>
+          <ul className="row2">
+            <div className="contact" onClick={contactPageClick}>
               <h1>Contact Me</h1>
 
             </div>  {/* Contact Page */}
 
-            <div class="ultimate">
+            <div className="ultimate">
               <h1>Lime City<br/>Ultimate</h1>
 
             </div>  {/* Lime City Ultimate Page */}
