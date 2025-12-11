@@ -54,11 +54,21 @@ body {
 
 .icon{
     border-radius: 20%;
+    animation: fadeIn 1s ease-in forwards;
     //padding:0.5em;
 }
 
 .icon:hover{
     transform: scale(1.1);
     cursor: pointer;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
