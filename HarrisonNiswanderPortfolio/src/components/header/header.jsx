@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import './header_style/header.css';
-import HN_Signature from '../../images/HN_Signature.png';
+import HN_Signature from '../../images/signatures/HN_Signature.png';
 
 export default function header() {
     return (
@@ -8,7 +8,6 @@ export default function header() {
             {/*Navigation Menu*/}
             <header>
                 
-
             </header>
             
             {/*Navigation Menu*/}

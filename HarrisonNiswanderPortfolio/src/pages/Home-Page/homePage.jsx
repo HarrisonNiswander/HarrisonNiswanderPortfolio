@@ -3,7 +3,7 @@ import Header from '../../components/header/header.jsx';
 import Footer from '../../components/footer/footer.jsx';
 import { Link } from "react-router-dom";
 import { useNavigate } from 'react-router-dom';
-import HN_Signature from '../../images/HN_Signature.png';
+import HN_Signature from '../../images/signatures/HN_Signature.png';
 
 
 

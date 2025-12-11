@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import React from 'react';
 import Header from '../../components/header/header.jsx';
 import Footer from '../../components/footer/footer.jsx';
-import Tai_Lung from '../../images/tai-lung.jpg';
+import Tai_Lung from '../../images/not-found-page/tai-lung.jpg';
 
 function notFoundPage() {
     return (
