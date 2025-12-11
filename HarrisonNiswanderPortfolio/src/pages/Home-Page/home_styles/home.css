@@ -65,7 +65,7 @@ header {
 }
 
 .about {
-  background-image: url("../../../images/harrison-run2.JPG");
+  background-image: url("../../../images/home-page/harrison-run2.JPG");
   background-repeat: no-repeat;
   background-position: left;
   background-size: 65% 112%;
@@ -77,7 +77,7 @@ header {
 }
 
 .contact {
-  background-image: url("../../../images/harrison-run.JPG");
+  background-image: url("../../../images/home-page/harrison-run.JPG");
   background-repeat: no-repeat;
   background-position: left;
   background-size: 65% 135%;
@@ -89,7 +89,7 @@ header {
 }
 
 .ultimate {
-  background-image: url("../../../images/lime-city-ult-logo.jpeg");
+  background-image: url("../../../images/home-page/lime-city-ult-logo.jpeg");
   background-repeat: no-repeat;
   background-position: left;
   background-size: 65% 115%;
@@ -101,7 +101,7 @@ header {
 }
 
 .port {
-  background-image: url("../../../images/island-song.png");
+  background-image: url("../../../images/home-page/island-song.png");
   background-repeat: no-repeat;
   background-position: left;
   background-size: 65% 100%;
