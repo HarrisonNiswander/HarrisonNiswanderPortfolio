@@ -55,6 +55,10 @@ body {
 .icon{
     border-radius: 20%;
     animation: fadeIn 1s ease-in forwards;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 0 !important;
     //padding:0.5em;
 }
 
@@ -78,28 +82,28 @@ body {
 }
 
 .tooltiptext {
-  //visibility: hidden; /* Hidden by default */
-  width: 15%;
+  visibility: hidden !important; /* Hidden by default */
+  width: 120%;
   background-color: black;
   color: #ffffff;
   text-align: center;
   padding: 5px 0;
   border-radius: 6px;
   position: absolute;
-  top: 50%;
-  left: 19%;
-  
-  z-index: 1; /* Ensure tooltip is displayed above content */
+  top:-3.5em;
+  z-index: 999 !important; /* Ensure tooltip is displayed above content */
 }
 
 .tooltiptext::after {
   content: " ";
   position: absolute;
-  bottom: 100%;  /* At the top of the tooltip */
+  top: 100%; /* At the bottom of the tooltip */
   left: 50%;
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: transparent transparent black transparent;
+  border-color: black transparent transparent transparent;
 }
+
+
 

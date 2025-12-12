@@ -22,7 +22,7 @@ const contact = () => (
     {/* Contact Links Section */}
     <main className="links">
       <ul className="row">
-        <a href="mailto:harrisonniswander@gmail.com" target="_blank" rel="noopener noreferrer">
+        <a href="mailto:harrisonniswander@gmail.com" target="_blank" rel="noopener noreferrer" className="icon">
           <img src={gmail} alt="Gmail" height={200} width={200} className="icon"/>
           <span class="tooltiptext">harrisonniswander@gmail.com</span>
         </a>
