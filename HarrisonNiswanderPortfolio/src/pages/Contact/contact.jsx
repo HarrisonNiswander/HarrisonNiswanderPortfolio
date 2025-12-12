@@ -24,6 +24,7 @@ const contact = () => (
       <ul className="row">
         <a href="mailto:harrisonniswander@gmail.com" target="_blank" rel="noopener noreferrer">
           <img src={gmail} alt="Gmail" height={200} width={200} className="icon"/>
+          <span class="tooltiptext">harrisonniswander@gmail.com</span>
         </a>
 
         <a href="https://www.linkedin.com/in/harrison-niswander-99267b327/" target="_blank" rel="noopener noreferrer">
