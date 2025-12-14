@@ -1,0 +1,29 @@
+@use '../../../styles/colors' as c;
+@use '../../../styles/fonts' as f;
+
+html, body, main {
+    margin: 0;
+    transition: background-color 1s ease, color 1s ease;
+}
+
+body {
+    //font
+    font-family: f.$title-font;
+    font-weight: 400;
+    line-height: 1.6;
+    color: c.$black;
+    background-color: c.$mustard;
+
+}
+
+header{
+    margin-left: 1.3em;
+    margin-right: 1.3em;
+}
+
+// Import Bootstrap to apply your changes
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.container .nav .active{
+    background-color: aqua;
+}
