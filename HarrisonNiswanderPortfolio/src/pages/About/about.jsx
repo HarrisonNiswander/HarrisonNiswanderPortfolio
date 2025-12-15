@@ -1,14 +1,25 @@
 import Header from '../../components/header/header.jsx';
 import Footer from '../../components/footer/footer.jsx';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import "./about_styles/about.css";
 
 import Col from 'react-bootstrap/Col';
 import Nav from 'react-bootstrap/Nav';
 import Row from 'react-bootstrap/Row';
 import Tab from 'react-bootstrap/Tab';
+import { useEffect } from "react";
 
 const about = () => (
+  useEffect(() => {
+    const link = document.createElement("link");
+    link.rel = "stylesheet";
+    link.href = "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"; // or your local path
+    link.id = "bootstrap-page-css";
+    document.head.appendChild(link);
+    return () => {
+      document.head.removeChild(link);
+    };
+  }, []),
+  
   <div>
 
     
