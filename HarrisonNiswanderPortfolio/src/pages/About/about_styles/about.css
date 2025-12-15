@@ -14,4 +14,26 @@ body {
 header {
   margin-left: 1.3em;
   margin-right: 1.3em;
+}
+
+/* Active pill/tab (higher specificity to override Bootstrap) */
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: rgba(161, 94, 23, 0.874) !important;
+  color: hsl(0, 0%, 100%) !important;
+  border-radius: 0.5rem;
+  box-shadow: none;
+}
+
+/* Normal tabs */
+.nav-pills .nav-link {
+  color: hsl(0, 0%, 0%);
+  background-color: transparent;
+  transition: background-color 0.18s ease, color 0.18s ease;
+}
+
+/* Hover state */
+.nav-pills .nav-link:hover {
+  background-color: hsl(49, 90%, 73%);
+  color: #000;
 }/*# sourceMappingURL=about.css.map */

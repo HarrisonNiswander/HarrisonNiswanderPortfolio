@@ -21,9 +21,28 @@ header{
     margin-right: 1.3em;
 }
 
-// Import Bootstrap to apply your changes
-@import "../node_modules/bootstrap/scss/bootstrap";
+//Edit Bootstrap Defaults
 
-.container .nav .active{
-    background-color: aqua;
+/* Active pill/tab (higher specificity to override Bootstrap) */
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: c.$brown !important;
+  color: c.$white !important;
+  border-radius: 0.5rem;
+  box-shadow: none;
 }
+
+/* Normal tabs */
+.nav-pills .nav-link {
+  color: c.$black;
+  background-color: transparent;
+  transition: background-color 0.18s ease, color 0.18s ease;
+  
+}
+
+/* Hover state */
+.nav-pills .nav-link:hover {
+  background-color: c.$light-yellow;
+  color: #000;
+}
+
