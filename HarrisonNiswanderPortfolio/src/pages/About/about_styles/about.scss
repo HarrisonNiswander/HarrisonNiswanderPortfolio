@@ -13,12 +13,59 @@ body {
     line-height: 1.6;
     color: c.$black;
     background-color: c.$mustard !important;
+    
 
 }
 
 header{
     margin-left: 1.3em;
     margin-right: 1.3em;
+}
+
+h1{
+    font-family: f.$title-font;
+    font-weight: 700;
+    font-size: clamp(1.75rem, 3vw, 1.5rem);
+    line-height: 1.2;
+    margin: 1.5em 0 0.4em;
+    color: c.$black;
+    justify-self: center;
+    margin: 0;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.flex-column{
+    //justify-content: left;
+    margin: 0;
+    //align-self: left;
+    width: 10em;
+    //padding-left:1em !important;
+
+}
+
+.tab-content{
+    margin: 0;
+    display: flex;
+    font-family: f.$body-font;
+    font-size: clamp(1rem, 2.5vw, 1.2rem);
+    line-height: 1.6;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-right: 1em;
+    padding-left: 1em;
+    background-color: c.$light-yellow;
+    box-shadow: 4px 4px 10px c.$black;
+    border-radius: 1em;
+    width: 160%;
+    height: 50%;
+}
+
+.profile{
+    display:inline-flex;
+    flex-direction: row;
+    margin: 0;
+
 }
 
 //Edit Bootstrap Defaults
