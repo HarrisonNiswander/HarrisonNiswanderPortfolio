@@ -40,8 +40,7 @@ h1{
     margin: 0;
     //align-self: left;
     width: 10em;
-    //padding-left:1em !important;
-
+    
 }
 
 .tab-content{
@@ -65,7 +64,7 @@ h1{
     display:inline-flex;
     flex-direction: row;
     margin: 0;
-
+    align-items: center;
 }
 
 //Edit Bootstrap Defaults
@@ -77,6 +76,7 @@ h1{
   color: c.$white !important;
   border-radius: 0.5rem;
   box-shadow: none;
+  
 }
 
 /* Normal tabs */
@@ -84,7 +84,7 @@ h1{
   color: c.$black;
   background-color: transparent;
   transition: background-color 0.18s ease, color 0.18s ease;
-  
+
 }
 
 /* Hover state */

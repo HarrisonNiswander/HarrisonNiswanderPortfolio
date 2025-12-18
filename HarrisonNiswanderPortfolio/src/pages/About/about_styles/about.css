@@ -55,6 +55,7 @@ h1 {
   display: inline-flex;
   flex-direction: row;
   margin: 0;
+  align-items: center;
 }
 
 /* Active pill/tab (higher specificity to override Bootstrap) */
