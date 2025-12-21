@@ -2,26 +2,37 @@ import "./portfolio_styles/portfolio.css";
 import { useState } from "react";
 import Header from '../../components/header/header.jsx';
 import Footer from '../../components/footer/footer.jsx';
-import PortfolioGrid from "../../components/portfolio-menu/portfolio-grid.jsx";
+import islandSongLogo from '../../images/portfolio-page//Island-Song/islandSongLogo.png';
+import signingBeeHome from '../../images/portfolio-page/Signing-Bee/signingBeeHome.png';
+import signingBeePlay from '../../images/portfolio-page/Signing-Bee/signingBeePlay.png';
+import signingBeeLogo from '../../images/portfolio-page/Signing-Bee/signingBeeLogo.png';
 
-
-const games = [
-  { id: 1, name: "Signing Bee", image: "./images/signingBeeHome.png" },
-  { id: 2, name: "Island Song", image: "./images/islandSongLogo.png" },
-  { id: 3, name: "Blank", image: "./images/signingBeeHome.png" },
-  { id: 4, name: "Blank", image: "./images/signingBeePlay.png" },
+const cards = [
+  { id: 1, name: "Signing Bee", image: signingBeeLogo },
+  { id: 2, name: "Island Song", image: islandSongLogo },
 
 ];
 
-
 const portfolio = () => {
-  const [selectedGame, setSelectedGame] = useState(null);
-
+  
   return (
     <div>
       <Header />
-      
-      <h2>Portfolio Page</h2>
+
+      <br/> {/* Break */}
+
+      {cards.map((card) => (
+        <div
+          className="card"
+          key={card.id}
+          //onClick={() => handleClick(card.id)}
+          
+        >
+          <img src={card.image} alt={card.name}  className="image"/>
+          <h1 className="title">{card.name}</h1>
+
+        </div>
+      ))}
 
       
 

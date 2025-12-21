@@ -14,4 +14,36 @@ body {
 header {
   margin-left: 1.3em;
   margin-right: 1.3em;
+}
+
+.image {
+  border-radius: 1.5em;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 35%;
+  height: auto;
+}
+
+.card {
+  background-color: rgba(161, 94, 23, 0.874);
+  border-radius: 1.5em;
+  padding: 1em;
+  margin-bottom: 2em;
+  box-shadow: 0 4px 8px hsl(0, 0%, 0%);
+  width: 80%;
+  justify-self: center;
+  align-self: center;
+  transition: transform 0.2s;
+  display: flex;
+  flex-direction: row;
+}
+
+.title {
+  font-family: Trebuchet MS, sans-serif;
+  font-weight: 700;
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  line-height: 1.2;
+  margin: 0.5em 0 0.4em;
+  color: hsl(0, 0%, 0%);
+  padding-left: 25%;
 }/*# sourceMappingURL=portfolio.css.map */
