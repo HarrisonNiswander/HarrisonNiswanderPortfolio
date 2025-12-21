@@ -21,6 +21,18 @@ header{
     margin-right: 1.3em;
 }
 
+.portfolio-font{
+    font-family: f.$title-font;
+    font-weight: 700;
+    font-size: 2em;
+    line-height: 1.2;
+    margin: auto;
+    padding-top: 0.8em;
+    padding-bottom: 0.6em;
+    color: c.$black;
+    justify-self: center;
+}
+
 .image{
     border-radius: 1.5em;
     object-fit: cover;
@@ -44,6 +56,12 @@ header{
 
 }
 
+.card:hover{
+    transform: scale(1.05);
+    background-color: c.$light-gray;
+    cursor: pointer;
+}
+
 .title{
     font-family: f.$title-font;
     font-weight: 700;
@@ -52,4 +70,27 @@ header{
     margin: 0.5em 0 0.4em;
     color: c.$black;
     padding-left: 25%;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    padding-left: 12%;
+    padding-right: 12%;
+    margin: 0;
+    
+}
+
+.description{
+    font-family: f.$body-font;
+    font-size: clamp(1rem, 2.5vw, 1.2rem);
+    line-height: 1.6;
+    margin: 0.5em 0 0.5em;
+    color: c.$black;
+    align-self: center;
+    visibility: hidden;
+}
+
+.card:hover .description{
+    visibility: visible;
 }
