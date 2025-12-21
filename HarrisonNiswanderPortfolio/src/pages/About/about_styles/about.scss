@@ -35,61 +35,141 @@ h1{
     padding-bottom: 0.5em;
 }
 
-.flex-column{
-    //justify-content: left;
+.about-header{
+    display:flex;
+    justify-items: top;
+    //align-items: center;
+    flex-direction: row;
     margin: 0;
-    //align-self: left;
-    width: 10em;
+    gap: 11em;
+    padding-bottom: 10em;
+    padding-top: 1em;
+}
+
+.content{
+    padding-top: 1em;
     
 }
 
-.tab-content{
+
+.picture img{
+    width: 200px;
+    height: 225px;
+    object-fit: cover;
+    border-radius: 50%; 
+    align-self: center;
+    justify-self: center;
+    padding: 0.8em;
     margin: 0;
-    display: flex;
-    font-family: f.$body-font;
-    font-size: clamp(1rem, 2.5vw, 1.2rem);
-    line-height: 1.6;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    padding-right: 1em;
-    padding-left: 1em;
-    background-color: c.$light-yellow;
-    box-shadow: 4px 4px 10px c.$black;
-    border-radius: 1em;
-    width: 160%;
-    height: 50%;
 }
 
-.profile{
-    display:inline-flex;
-    flex-direction: row;
-    margin: 0;
-    align-items: center;
+.pic-background{
+    width: 225px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%; 
+    background-color: c.$black;
+    margin-top: 0.8em;
+    margin-bottom: 1em;
+    margin-left: 1.7em;
+
 }
+
+.button{
+    //display: inline-block;
+    margin-left: 0.7em;
+    margin-bottom: 0.5em;
+    padding: 1em 2.5em;
+    font-family: f.$title-font;
+    font-size: clamp(1rem, 2.5vw, 1.2rem);
+    font-weight: 700;
+    color: c.$white;
+    background-color: c.$brown;
+    width:100%;
+}
+
+.button:hover{
+    background-color: c.$light-yellow;
+    color: c.$black;
+    cursor: pointer;
+}
+
+.button:active{
+    transform: scale(0.98);
+}
+
+.button.active{
+    background-color: c.$light-gray;
+    color: c.$black;
+}
+
+.nav{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    //justify-content: left;
+    gap: 0em;
+    padding-bottom: 0em;
+}
+
+
+//
+//.flex-column{
+    //justify-content: left;
+//    margin: 0;
+    //align-self: left;
+///    width: 10em;
+    
+//}
+
+//.tab-content{
+//    margin: 0;
+ //   display: flex;
+ //   font-family: f.$body-font;
+ //   font-size: clamp(1rem, 2.5vw, 1.2rem);
+ //   line-height: 1.6;
+ //   padding-top: 0.5em;
+  //  padding-bottom: 0.5em;
+  //  padding-right: 1em;
+  //  padding-left: 1em;
+  //  background-color: c.$light-yellow;
+   // box-shadow: 4px 4px 10px c.$black;
+   // border-radius: 1em;
+   // width: 160%;
+   // height: 50%;
+//}
+
+//.profile{
+//    display:inline-flex;
+//    flex-direction: row;
+//    margin: 0;
+//    align-items: center;
+//}
+
 
 //Edit Bootstrap Defaults
 
 /* Active pill/tab (higher specificity to override Bootstrap) */
-.nav-pills .nav-link.active,
-.nav-pills .show > .nav-link {
-  background-color: c.$brown !important;
-  color: c.$white !important;
-  border-radius: 0.5rem;
-  box-shadow: none;
+//.nav-pills .nav-link.active,
+//.nav-pills .show > .nav-link {
+//  background-color: c.$brown !important;
+//  color: c.$white !important;
+///  border-radius: 0.5rem;
+//  box-shadow: none;
   
-}
+//}
 
 /* Normal tabs */
-.nav-pills .nav-link {
-  color: c.$black;
-  background-color: transparent;
-  transition: background-color 0.18s ease, color 0.18s ease;
+//.nav-pills .nav-link {
+//  color: c.$black;
+//  background-color: transparent;
+//  transition: background-color 0.18s ease, color 0.18s ease;
 
-}
+//}
 
 /* Hover state */
-.nav-pills .nav-link:hover {
-  background-color: c.$light-yellow;
-  color: #000;
-}
+//.nav-pills .nav-link:hover {
+//  background-color: c.$light-yellow;
+//  color: #000;
+//}
 

@@ -29,53 +29,79 @@ h1 {
   padding-bottom: 0.5em;
 }
 
-.flex-column {
-  margin: 0;
-  width: 10em;
-}
-
-.tab-content {
-  margin: 0;
+.about-header {
   display: flex;
-  font-family: Times, Times New Roman, serif;
-  font-size: clamp(1rem, 2.5vw, 1.2rem);
-  line-height: 1.6;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
-  padding-right: 1em;
-  padding-left: 1em;
-  background-color: hsl(49, 90%, 73%);
-  box-shadow: 4px 4px 10px hsl(0, 0%, 0%);
-  border-radius: 1em;
-  width: 160%;
-  height: 50%;
-}
-
-.profile {
-  display: inline-flex;
+  justify-items: top;
   flex-direction: row;
   margin: 0;
-  align-items: center;
+  gap: 11em;
+  padding-bottom: 10em;
+  padding-top: 1em;
+}
+
+.content {
+  padding-top: 1em;
+}
+
+.picture img {
+  width: 200px;
+  height: 225px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  align-self: center;
+  justify-self: center;
+  padding: 0.8em;
+  margin: 0;
+}
+
+.pic-background {
+  width: 225px;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  background-color: hsl(0, 0%, 0%);
+  margin-top: 0.8em;
+  margin-bottom: 1em;
+  margin-left: 1.7em;
+}
+
+.button {
+  margin-left: 0.7em;
+  margin-bottom: 0.5em;
+  padding: 1em 2.5em;
+  font-family: Trebuchet MS, sans-serif;
+  font-size: clamp(1rem, 2.5vw, 1.2rem);
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+  background-color: rgba(161, 94, 23, 0.874);
+  width: 100%;
+}
+
+.button:hover {
+  background-color: hsl(49, 90%, 73%);
+  color: hsl(0, 0%, 0%);
+  cursor: pointer;
+}
+
+.button:active {
+  transform: scale(0.98);
+}
+
+.button.active {
+  background-color: hsl(0, 0%, 86%);
+  color: hsl(0, 0%, 0%);
+}
+
+.nav {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0em;
+  padding-bottom: 0em;
 }
 
 /* Active pill/tab (higher specificity to override Bootstrap) */
-.nav-pills .nav-link.active,
-.nav-pills .show > .nav-link {
-  background-color: rgba(161, 94, 23, 0.874) !important;
-  color: hsl(0, 0%, 100%) !important;
-  border-radius: 0.5rem;
-  box-shadow: none;
-}
-
 /* Normal tabs */
-.nav-pills .nav-link {
-  color: hsl(0, 0%, 0%);
-  background-color: transparent;
-  transition: background-color 0.18s ease, color 0.18s ease;
-}
-
-/* Hover state */
-.nav-pills .nav-link:hover {
-  background-color: hsl(49, 90%, 73%);
-  color: #000;
-}/*# sourceMappingURL=about.css.map */
+/* Hover state *//*# sourceMappingURL=about.css.map */
