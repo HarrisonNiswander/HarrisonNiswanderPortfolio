@@ -6,6 +6,7 @@ import About from "./pages/About/about.jsx";
 import Portfolio from "./pages/Portfolio/portfolio.jsx";
 import Contact from "./pages/Contact/contact.jsx";
 import NotFound from "./pages/Not-Found-Page/notFoundPage.jsx";
+import PortfolioIslandSong from "./pages/Portfolio/Island-Song/island-song.jsx";
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,12 @@ const router = createBrowserRouter([
     //Portfolio Page Route
     path: "/portfolio",
     element: <Portfolio />
+  }, 
+
+  {
+    //Portfolio -> Island Song Page
+    path: "/portfolio/island-song",
+    element: <PortfolioIslandSong />
   }, 
 
   {
