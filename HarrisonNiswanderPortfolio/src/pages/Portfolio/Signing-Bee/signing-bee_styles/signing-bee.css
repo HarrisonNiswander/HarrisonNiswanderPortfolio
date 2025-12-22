@@ -1,0 +1,98 @@
+html, body, main {
+  margin: 0;
+  transition: background-color 1s ease, color 1s ease;
+}
+
+body {
+  font-family: Trebuchet MS, sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  color: hsl(0, 0%, 0%);
+  background-color: hsl(49, 93%, 52%);
+}
+
+header {
+  margin-left: 1.3em;
+  margin-right: 1.3em;
+}
+
+h2 {
+  justify-self: center;
+  font-family: Trebuchet MS, sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+  padding-bottom: 0.1em;
+  margin: 0;
+}
+
+.sb-title {
+  display: flexbox;
+  flex-direction: row;
+  margin: -1.5rem auto;
+  margin-bottom: 0.3em;
+  padding-bottom: 0.3em;
+  padding-left: 1.3em;
+  padding-right: 1.3em;
+  color: hsl(0, 0%, 0%);
+  background-color: hsl(221, 51%, 16%);
+  width: auto;
+  max-width: 85%;
+  border-radius: 1em;
+  box-shadow: 0 4px 8px hsl(0, 0%, 0%);
+}
+.sb-title h1 {
+  font-family: Trebuchet MS, sans-serif;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+  font-size: 2em;
+  align-self: center;
+  justify-self: center;
+  padding-top: 1em;
+}
+.sb-title img {
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  padding-bottom: 1em;
+}
+
+.creators-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  gap: 2.5em;
+  padding-bottom: 0.2em;
+  padding-top: 1em;
+  animation: fadeIn 2s ease-in forwards;
+  background-color: hsl(0, 0%, 86%);
+  border-radius: 2em;
+  box-shadow: 0 4px 8px hsl(0, 0%, 0%);
+  width: 75%;
+  justify-self: center;
+}
+
+.creator-card {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.name {
+  margin-top: 0.5em;
+  font-family: Times, Times New Roman, serif;
+  font-weight: 600;
+  font-size: 1.2em;
+  color: hsl(0, 0%, 0%);
+}
+
+.creator-image {
+  border-radius: 2em;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 0.3em solid hsl(0, 0%, 0%);
+}/*# sourceMappingURL=signing-bee.css.map */
