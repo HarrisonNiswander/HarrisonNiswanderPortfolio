@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import "./signing-bee_styles/signing-bee.css";
 import Header from '../../../components/header/header.jsx';
 import Footer from '../../../components/footer/footer.jsx';
@@ -19,10 +20,18 @@ const carouselImages = [
 ];
 
 const signingBee = () => {
-  
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate('/portfolio');
+  };
+
   return (
     <div>
         <Header />
+
+        <button className="back-button" onClick={handleClick}>Back</button>
+
         <div className="sb-title">
             <h1>Signing Bee</h1>
             <img src={signingBeeLogoSVG} width="50" height="50" />

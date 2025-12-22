@@ -30,11 +30,30 @@ h2{
     margin: 0;
 }
 
+.back-button{
+    margin-left: 1.3em;
+    margin-top: 1em;
+    padding: 0.5em 1em;
+    font-family: f.$body-font;
+    font-size: 1em;
+    background-color: c.$black;
+    color: c.$white;
+    border: none;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+
+.back-button:hover{
+    background-color: c.$blue;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
 
 .sb-title{
     display:flexbox;
     flex-direction: row;   
-    margin: -1.5rem auto; 
+    margin: -2rem auto; 
     margin-bottom: 0.3em;
     padding-bottom: 0.3em;
     padding-left: 1.3em;
@@ -45,6 +64,7 @@ h2{
     max-width: 85%;  
     border-radius: 1em;
     box-shadow: 0 4px 8px c.$black;
+    animation: fadeIn 1s ease-in forwards;
 
    h1{
         font-family: f.$title-font;
@@ -75,7 +95,7 @@ h2{
     gap: 2.5em;
     padding-bottom:0.2em;
     padding-top: 1em;
-    animation: fadeIn 2s ease-in forwards;
+    animation: fadeIn 1s ease-in forwards;
     background-color: c.$light-gray;
     border-radius: 2em;
     box-shadow: 0 4px 8px c.$black;
