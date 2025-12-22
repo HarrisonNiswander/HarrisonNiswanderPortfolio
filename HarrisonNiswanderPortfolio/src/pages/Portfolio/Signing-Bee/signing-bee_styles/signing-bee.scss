@@ -35,7 +35,7 @@ h2{
     margin-top: 1em;
     padding: 0.5em 1em;
     font-family: f.$body-font;
-    font-size: 1em;
+    font-size: 1.2em;
     background-color: c.$black;
     color: c.$white;
     border: none;
@@ -85,7 +85,6 @@ h2{
     
 }
 
-
 .creators-container{
     display:flex;
     flex-direction: row;
@@ -95,13 +94,19 @@ h2{
     gap: 2.5em;
     padding-bottom:0.2em;
     padding-top: 1em;
-    animation: fadeIn 1s ease-in forwards;
-    background-color: c.$light-gray;
-    border-radius: 2em;
-    box-shadow: 0 4px 8px c.$black;
-    width: 75%;
     justify-self: center;
 
+}
+
+.creators-background
+{
+    background-color: c.$light-gray;
+    animation: fadeIn 1s ease-in forwards;
+    border-radius: 2em;
+    box-shadow: 0 4px 8px c.$black;
+    width: 80%;
+    justify-self: center;
+    padding-top: 1em;
 }
 
 .creator-card{
@@ -117,12 +122,111 @@ h2{
     margin-top: 0.5em;
     font-family: f.$body-font;
     font-weight: 600;
-    font-size: 1.2em;
+    font-size: 1.3em;
     color: c.$black;
 }
 
 .creator-image{
     border-radius: 2em; 
     object-fit: cover;
-    border: 0.3em solid c.$black;
+    border: 0.6em solid c.$black;
 }
+
+.sb-about{
+    margin: 0;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    background-color: c.$light-gray;
+    animation: fadeIn 1s ease-in forwards;
+    border-radius: 2em;
+    box-shadow: 0 4px 8px c.$black;
+    width: 80%;
+    justify-self: center;
+
+    font-family: f.$body-font;
+    font-size: 1.3em;
+}
+
+
+.github{
+    margin: 0;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    background-color: c.$light-gray;
+    animation: fadeIn 1s ease-in forwards;
+    border-radius: 2em;
+    box-shadow: 0 4px 8px c.$black;
+    width: 50%;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+
+    h2{
+        justify-self: center;
+        align-self: center;
+    }
+}
+
+.github-logo{
+    cursor: pointer;
+    justify-self: center;
+    align-self: center;
+    animation: fadeIn 1s ease-in forwards;
+    border-radius: 2em;
+
+}
+
+.github-logo:hover{
+    transform: scale(1.05);
+}
+
+table, th, td {
+  border:2px solid black;
+  justify-self: center;
+  align-self: center;
+}
+
+.tech{
+    width: 10em;
+    font-family: f.$body-font;
+    font-weight: 600;
+    font-size: 1.4em;
+    color: c.$black;
+}
+
+.used{
+    width: 20em;
+    font-family: f.$title-font;
+    font-weight: 400;
+    font-size: 1.2em;
+    color: c.$black;
+}
+
+.tech-stack{
+    margin: 0;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    background-color: c.$light-gray;
+    animation: fadeIn 1s ease-in forwards;
+    border-radius: 2em;
+    box-shadow: 0 4px 8px c.$black;
+    width: 50%;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+
+    h2{
+        justify-self: center;
+        align-self: center;
+    }
+
+}
+
