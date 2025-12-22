@@ -4,8 +4,6 @@ import { useNavigate } from 'react-router-dom';
 import Header from '../../components/header/header.jsx';
 import Footer from '../../components/footer/footer.jsx';
 import islandSongLogo from '../../images/portfolio-page//Island-Song/islandSongLogo.png';
-import signingBeeHome from '../../images/portfolio-page/Signing-Bee/signingBeeHome.png';
-import signingBeePlay from '../../images/portfolio-page/Signing-Bee/signingBeePlay.png';
 import signingBeeLogo from '../../images/portfolio-page/Signing-Bee/signingBeeLogo.png';
 import HarrisonSig from '../../images/signatures/HN_SignatureW.png';
 
