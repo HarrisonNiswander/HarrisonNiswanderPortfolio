@@ -6,6 +6,8 @@ import Footer from '../../../components/footer/footer.jsx';
 import signingBeeLogo from '../../../images/portfolio-page/Signing-Bee/signingBeeLogo.png';
 import signingBeeHome from '../../../images/portfolio-page/Signing-Bee/signingBeeHome.png';
 import signingBeePlay from '../../../images/portfolio-page/Signing-Bee/signingBeePlay.png';
+import signingBeeLogin from '../../../images/portfolio-page/Signing-Bee/signingBeeLogin.png';
+import signingBeeASL from '../../../images/portfolio-page/Signing-Bee/signingBeeASLRef.png';
 import signingBeeLogoSVG from '../../../images/portfolio-page/Signing-Bee/signing-bee-logo.svg';
 import ImageCarousel from '../../../components/image-carousel/image-carousel.jsx';
 import Steven from '../../../images/portfolio-page/Signing-Bee/creators/steven_picture.png';
@@ -16,7 +18,9 @@ import Zack from '../../../images/portfolio-page/Signing-Bee/creators/zack_pictu
 const carouselImages = [
     { src: signingBeeLogo, description: 'Signing Bee Logo' },
     { src: signingBeeHome, description: 'Signing Bee Home Page' },
+    { src: signingBeeASL, description: 'Signing Bee ASL Reference Page' },
     { src: signingBeePlay, description: 'Signing Bee Play Page' },
+    { src: signingBeeLogin, description: 'Signing Bee Login Page' },
 ];
 
 const signingBee = () => {
@@ -41,6 +45,38 @@ const signingBee = () => {
             <ImageCarousel images={carouselImages} interval={4000} />
 
         </div>
+
+        <h2>About the Project</h2>
+
+        <p>
+            Signing Bee was made in Fall 2025 at Purdue University Fort Wayne as a semester-long 
+            project for CS 347: Full-Stack Web Development. Signing Bee is a learning platform 
+            designed to teach the basics of ASL spelling through an interactive game platform.
+
+            <br/><br/>
+
+            Signing Bee was made over the course of 16 weeks, starting with basic prototypes of the 
+            gesture recognition system, constructing a website around that, and then connecting the 
+            page to other server-side services keep the leaderboard. 
+        </p>
+
+        <h2>Tech Stack</h2>
+
+        <ul>
+            {/* List of technologies used in the project */}
+            <li>Frontend: React, HTML, CSS</li>
+            <li>Backend: Node.js, Express.js</li>
+            <li>Database: PostgreSQL on Supabase</li>
+            <li>Testing: Cypress (E2E), Jest, Supertest</li>
+            <li>CI/CD: GitHub Actions</li>
+            <li>Hosting: Google Cloud platform</li>
+
+            {/* PUT THIS IN TABLE */}
+            {/* PUT THIS IN TABLE */}
+            {/* PUT THIS IN TABLE */}
+            {/* PUT THIS IN TABLE */}
+            {/* PUT THIS IN TABLE */}
+        </ul>
 
         <h2>Meet the Creators</h2>
 
@@ -71,6 +107,11 @@ const signingBee = () => {
             </div>
 
         </div>
+
+        <br/>
+
+        <h2>Github Repository</h2>
+        <p><a href="https://github.com/stevenlagoy/Signing-Bee">Signing Bee on GitHub</a></p>
 
         <Footer />
     </div>
