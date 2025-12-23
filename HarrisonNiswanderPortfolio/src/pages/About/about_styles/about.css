@@ -34,7 +34,7 @@ h1 {
   justify-items: top;
   flex-direction: row;
   margin: 0;
-  gap: 6em;
+  gap: 0em;
   padding-bottom: 10em;
   padding-top: 1em;
   padding-left: 1em;
@@ -65,11 +65,11 @@ h1 {
   background-color: hsl(0, 0%, 0%);
   margin-top: 0.8em;
   margin-bottom: 1em;
-  margin-left: 1.7em;
+  margin-left: 1.3em;
 }
 
 .button {
-  margin-left: 0.7em;
+  margin-left: 0.5em;
   margin-bottom: 0.5em;
   padding: 1em 2.5em;
   font-family: Trebuchet MS, sans-serif;
@@ -78,6 +78,7 @@ h1 {
   color: hsl(0, 0%, 100%);
   background-color: rgba(161, 94, 23, 0.874);
   width: 100%;
+  border-radius: 1em;
 }
 
 .button:hover {
@@ -107,7 +108,7 @@ h1 {
   background-color: hsl(49, 90%, 73%);
   padding: 1em;
   margin: 0;
-  width: 65em;
+  width: 60em;
   border-radius: 2em;
 }
 
