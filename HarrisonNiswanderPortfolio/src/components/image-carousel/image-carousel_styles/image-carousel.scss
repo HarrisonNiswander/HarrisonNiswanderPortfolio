@@ -1,0 +1,60 @@
+/* ImageCarousel.css */
+.carousel-container {
+  position: relative;
+  max-width: 700px;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 8px;
+  padding-top: 1.5em;
+  animation: fadeIn 1s ease-in forwards;
+}
+
+.carousel-slide img {
+  width: 100%;
+  height: 25em;
+  display: none; /* Hide all images by default */
+  border-radius: 1em;
+}
+
+.carousel-slide .slide.active img {
+  display: block; /* Show only the active image */
+}
+
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.prev-btn {
+  left: 10px;
+}
+
+.next-btn {
+  right: 10px;
+}
+
+.carousel-dots {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.dot {
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: #717171;
+}
