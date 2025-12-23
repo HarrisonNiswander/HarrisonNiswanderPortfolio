@@ -29,6 +29,10 @@ h1 {
   padding-bottom: 0.5em;
 }
 
+h2 {
+  font-size: clamp(1.75rem, 3vw, 1rem) !important;
+}
+
 .about-header {
   display: flex;
   justify-items: top;
