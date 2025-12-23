@@ -1,0 +1,145 @@
+@use '../../../styles/colors' as c;
+@use '../../../styles/fonts' as f;
+
+html, body, main {
+    margin: 0;
+    transition: background-color 1s ease, color 1s ease;
+}
+
+body {
+    //font
+    font-family: f.$title-font;
+    font-weight: 400;
+    line-height: 1.6;
+    color: c.$black;
+    background-color: c.$mustard !important;
+    
+
+}
+
+header{
+    margin-left: 1.3em;
+    margin-right: 1.3em;
+}
+
+h1{
+    font-family: f.$title-font;
+    font-weight: 700;
+    font-size: clamp(1.75rem, 3vw, 1.5rem);
+    line-height: 1.2;
+    margin: 1.5em 0 0.4em;
+    color: c.$black;
+    justify-self: center;
+    margin: 0;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.about-header{
+    display:flex;
+    justify-items: top;
+    flex-direction: row;
+    margin: 0;
+    gap: 6em;
+    padding-bottom: 10em;
+    padding-top: 1em;
+    padding-left: 1em;
+}
+
+.content{
+    padding-top: 1em;
+    
+}
+
+
+.picture img{
+    width: 200px;
+    height: 225px;
+    object-fit: cover;
+    border-radius: 50%; 
+    align-self: center;
+    justify-self: center;
+    padding: 0.8em;
+    margin: 0;
+}
+
+.pic-background{
+    width: 225px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%; 
+    background-color: c.$black;
+    margin-top: 0.8em;
+    margin-bottom: 1em;
+    margin-left: 1.7em;
+
+}
+
+.button{
+    //display: inline-block;
+    margin-left: 0.7em;
+    margin-bottom: 0.5em;
+    padding: 1em 2.5em;
+    font-family: f.$title-font;
+    font-size: clamp(1rem, 2.5vw, 1.2rem);
+    font-weight: 700;
+    color: c.$white;
+    background-color: c.$brown;
+    width:100%;
+}
+
+.button:hover{
+    background-color: c.$light-yellow;
+    color: c.$black;
+    cursor: pointer;
+}
+
+.button:active{
+    transform: scale(0.98);
+}
+
+.button.active{
+    background-color: c.$light-gray;
+    color: c.$black;
+}
+
+.nav{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    //justify-content: left;
+    gap: 0em;
+    padding-bottom: 0em;
+}
+
+//Academics Section --------------------------------------------------------
+.about-container{
+    background-color: c.$light-yellow;
+    padding: 1em;
+    margin: 0;
+    width: 65em;
+    border-radius: 2em;
+
+}
+
+.about-card{
+    background-color: c.$dark-gray;
+    padding: 1em;
+    margin: 0;
+    border-radius: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    gap: 3em;
+}
+
+.school-logo{
+    border-radius: 2em;
+    object-fit: cover;
+}
+
+.about-content{
+    display: flex;
+    flex-direction: column;
+}
