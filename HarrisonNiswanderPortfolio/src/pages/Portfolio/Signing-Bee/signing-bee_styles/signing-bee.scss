@@ -239,3 +239,39 @@ table, th, td {
 
 }
 
+//Link Section -------------------------------------------------------------------
+
+.sb-link{
+    margin: 0;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    background-color: c.$light-gray;
+    animation: fadeIn 1s ease-in forwards;
+    border-radius: 2em;
+    box-shadow: 0 4px 8px c.$black;
+    width: 50%;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+
+    h2{
+        justify-self: center;
+        align-self: center;
+    }
+}
+
+.link-logo{
+    cursor: pointer;
+    justify-self: center;
+    align-self: center;
+    animation: fadeIn 1s ease-in forwards;
+    border-radius: 2em;
+
+}
+
+.link-logo:hover{
+    transform: scale(1.05);
+}

@@ -9,6 +9,7 @@ import signingBeePlay from '../../../images/portfolio-page/Signing-Bee/signingBe
 import signingBeeLogin from '../../../images/portfolio-page/Signing-Bee/signingBeeLogin.png';
 import signingBeeASL from '../../../images/portfolio-page/Signing-Bee/signingBeeASLRef.png';
 import signingBeeLogoSVG from '../../../images/portfolio-page/Signing-Bee/signing-bee-logo.svg';
+import signingBeeLinkLogo from '../../../images/portfolio-page/Signing-Bee/sbLinkLogo.png';
 import ImageCarousel from '../../../components/image-carousel/image-carousel.jsx';
 import githubBlack from '../../../images/portfolio-page/Signing-Bee/githubBlack.png';
 import Steven from '../../../images/portfolio-page/Signing-Bee/creators/steven_picture.png';
@@ -151,7 +152,17 @@ const signingBee = () => {
             />
         </div>
 
-        <br/><br/><br/>
+        <br/><br/>
+        
+        <div className="sb-link">
+            <h2>Visit the Site</h2>
+            <img src={signingBeeLinkLogo} alt="Link Logo" height={150} width={300} className="link-logo"
+                onClick={() => window.open("https://signingbee.xyz", "_blank")}
+            />
+
+        </div>
+        
+        <br/>
 
         <Footer />
     </div>
