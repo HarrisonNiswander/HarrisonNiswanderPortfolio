@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import './footer_style/footer.css';
-import HN_SignatureW from '../../images/HN_SignatureW.png';
+import HN_SignatureW from '../../images/signatures/HN_SignatureW.png';
 
 export default function footer() {
     return (

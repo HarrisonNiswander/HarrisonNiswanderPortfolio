@@ -1,0 +1,33 @@
+@use '../../../styles/colors' as c;
+@use '../../../styles/fonts' as f;
+
+html, body, main {
+    margin: 0;
+    transition: background-color 1s ease, color 1s ease;
+}
+
+body {
+    //font
+    font-family: f.$title-font;
+    font-weight: 400;
+    line-height: 1.6;
+    color: c.$black;
+    background-color: c.$mustard;
+
+}
+
+main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    height:37em;
+}
+
+.tai-lung{
+    border: 1em;
+    border-color: c.$white;
+    border-style: ridge;
+    border-radius: 1em;
+    justify-self: center;
+}
