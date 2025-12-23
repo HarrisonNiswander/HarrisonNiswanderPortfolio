@@ -1,7 +1,7 @@
 {
   "name": "package.json",
   "private": true,
-  "homepage": "http://HarrisonNiswander.github.io/HarrisonNiswanderPortfolio",
+  "homepage": "http://HarrisonNiswander.github.io/HarrisonNiswanderPortfolio/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "bootstrap": "^5.3.8",
