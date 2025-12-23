@@ -110,9 +110,9 @@ const about = () => {
                   <div className="about-content">
                     <h2>Huntington North High School Athletics</h2>
                     <ul>
-                      <li>4 Year Varisty</li>
-                      <li>Captain</li>
-                      <li>3 x State Qualifier (XC, Indoor Track, & Outdoor Track)</li>
+                      <li>4-Year Varisty</li>
+                      <li>Team Captain</li>
+                      <li>3 x Individual State Qualifier (XC, Indoor Track, & Outdoor Track)</li>
 
                     </ul>
                   </div>
@@ -126,10 +126,10 @@ const about = () => {
                     <h2>Purdue Fort Wayne Athletics</h2>
                     <ul>
                       <li>D1 Cross Country and Track (Indoor and Outdoor Track)</li>
-                      <li>Broke School Record in 11 Different Events</li>
+                      <li>Broke School Records in 11 Different Events</li>
                       <li>Currently Hold 9 School Records</li>
-                      <li>Horizon League Conference Champ (DMR 2024)</li>
-                      <li>Horizon League Conference Runner-up (DMR 2025 & 3k Steeple 2024)</li>
+                      <li>Horizon League Conference Champion (DMR 2024)</li>
+                      <li>Horizon League Conference Runner-Up (DMR 2025 & 3k Steeple 2024)</li>
                       
                     </ul>
                   </div>
@@ -142,7 +142,8 @@ const about = () => {
                   <div className="about-content">
                     <h2>2024 Horizon League Alfreeda Goff Indoor Track and Field Male Athlete of the Year</h2>
                     <ul>
-                      <li>Indoor Athlete of the Year</li>
+                      <li>This award was voted by various coaches around the league</li>
+                      <li>The award was based on my accomplishments in indoor track during the 2024 indoor season</li>
                       
                     </ul>
                   </div>
@@ -155,7 +156,8 @@ const about = () => {
                   <div className="about-content">
                     <h2>2024 Purdue Fort Wayne Male Athlete of the Year</h2>
                     <ul>
-                      <li>PFW Male Athlete of the Year</li>
+                      <li>Award was voted by coaches from all the sports at the university</li>
+                      <li>The award was based on my accomplishments in cross country and track, in addition to my academics</li>
                       
                     </ul>
                   </div>
@@ -173,10 +175,11 @@ const about = () => {
                   <img src={Tincaps} alt="Fort Wayne Tincaps" width={175} height={175} className="school-logo"/>
                   <div className="about-content">
                     <h2>Ticket Office Gameday Intern · Fort Wayne TinCaps</h2>
-                    <h3></h3>
                     <ul>
-                      <li>Sell Tickets</li>
-
+                      <li>Provide assistance to guests with ordering tickets or accessing purchased tickets</li>
+                      <li>Assist guests with the selection and purchase of their tickets.</li>
+                      <li>Answering broad range of questions about anything related to Parkview Field</li>
+                      
                     </ul>
                   </div>
                 </div>
@@ -188,7 +191,9 @@ const about = () => {
                   <div className="about-content">
                     <h2>Personal Assistant · Terry Stoffel</h2>
                     <ul>
-                      <li>Help Terry</li>
+                      <li>Operated heavy equipment when landscaping and completing miscellanous work</li>
+                      <li>Prepared and listed items for sale on online platforms</li>
+                      <li>Use time management and communication skills to ensure tasks are completed on time and to the expectation of my supervisor.</li>
 
                     </ul>
                   </div>
@@ -201,7 +206,9 @@ const about = () => {
                   <div className="about-content">
                     <h2>Automotive Technician · Parkmoor Carwash</h2>
                     <ul>
-                      <li>Clean Cars</li>
+                      <li>Operated carwash controls and ensured smooth process</li>
+                      <li>Detailed cars to customer's satisfaction</li>
+                      <li>Maintained clean work environment during breaks in customers</li>
 
                     </ul>
                   </div>
@@ -224,7 +231,7 @@ const about = () => {
                     <ul>
                       <li>Help with the First Lego League Northern Indiana Semi-State</li>
                       <li>Volunteered Last 3 Years</li>
-                      <li>Practice Table Monitor & Game Queuer</li>
+                      <li> Helped as Practice Table Monitor & Game Queuer</li>
 
                     </ul>
                   </div>
