@@ -38,12 +38,12 @@ h1{
 .about-header{
     display:flex;
     justify-items: top;
-    //align-items: center;
     flex-direction: row;
     margin: 0;
-    gap: 11em;
+    gap: 6em;
     padding-bottom: 10em;
     padding-top: 1em;
+    padding-left: 1em;
 }
 
 .content{
@@ -112,64 +112,34 @@ h1{
     padding-bottom: 0em;
 }
 
+//Academics Section --------------------------------------------------------
+.about-container{
+    background-color: c.$light-yellow;
+    padding: 1em;
+    margin: 0;
+    width: 65em;
+    border-radius: 2em;
 
-//
-//.flex-column{
-    //justify-content: left;
-//    margin: 0;
-    //align-self: left;
-///    width: 10em;
-    
-//}
+}
 
-//.tab-content{
-//    margin: 0;
- //   display: flex;
- //   font-family: f.$body-font;
- //   font-size: clamp(1rem, 2.5vw, 1.2rem);
- //   line-height: 1.6;
- //   padding-top: 0.5em;
-  //  padding-bottom: 0.5em;
-  //  padding-right: 1em;
-  //  padding-left: 1em;
-  //  background-color: c.$light-yellow;
-   // box-shadow: 4px 4px 10px c.$black;
-   // border-radius: 1em;
-   // width: 160%;
-   // height: 50%;
-//}
+.about-card{
+    background-color: c.$dark-gray;
+    padding: 1em;
+    margin: 0;
+    border-radius: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    gap: 3em;
+}
 
-//.profile{
-//    display:inline-flex;
-//    flex-direction: row;
-//    margin: 0;
-//    align-items: center;
-//}
+.school-logo{
+    border-radius: 2em;
+    object-fit: cover;
+}
 
-
-//Edit Bootstrap Defaults
-
-/* Active pill/tab (higher specificity to override Bootstrap) */
-//.nav-pills .nav-link.active,
-//.nav-pills .show > .nav-link {
-//  background-color: c.$brown !important;
-//  color: c.$white !important;
-///  border-radius: 0.5rem;
-//  box-shadow: none;
-  
-//}
-
-/* Normal tabs */
-//.nav-pills .nav-link {
-//  color: c.$black;
-//  background-color: transparent;
-//  transition: background-color 0.18s ease, color 0.18s ease;
-
-//}
-
-/* Hover state */
-//.nav-pills .nav-link:hover {
-//  background-color: c.$light-yellow;
-//  color: #000;
-//}
-
+.about-content{
+    display: flex;
+    flex-direction: column;
+}

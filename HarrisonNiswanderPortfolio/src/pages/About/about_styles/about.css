@@ -34,9 +34,10 @@ h1 {
   justify-items: top;
   flex-direction: row;
   margin: 0;
-  gap: 11em;
+  gap: 6em;
   padding-bottom: 10em;
   padding-top: 1em;
+  padding-left: 1em;
 }
 
 .content {
@@ -102,6 +103,33 @@ h1 {
   padding-bottom: 0em;
 }
 
-/* Active pill/tab (higher specificity to override Bootstrap) */
-/* Normal tabs */
-/* Hover state *//*# sourceMappingURL=about.css.map */
+.about-container {
+  background-color: hsl(49, 90%, 73%);
+  padding: 1em;
+  margin: 0;
+  width: 65em;
+  border-radius: 2em;
+}
+
+.about-card {
+  background-color: hsl(0, 0%, 51%);
+  padding: 1em;
+  margin: 0;
+  border-radius: 2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  gap: 3em;
+}
+
+.school-logo {
+  border-radius: 2em;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+}/*# sourceMappingURL=about.css.map */
