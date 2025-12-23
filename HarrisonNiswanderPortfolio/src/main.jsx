@@ -6,6 +6,8 @@ import About from "./pages/About/about.jsx";
 import Portfolio from "./pages/Portfolio/portfolio.jsx";
 import Contact from "./pages/Contact/contact.jsx";
 import NotFound from "./pages/Not-Found-Page/notFoundPage.jsx";
+import PortfolioIslandSong from "./pages/Portfolio/Island-Song/island-song.jsx";
+import PortfolioSigningBee from "./pages/Portfolio/Signing-Bee/signing-bee.jsx";
 
 const router = createBrowserRouter([
   {
@@ -24,6 +26,18 @@ const router = createBrowserRouter([
     //Portfolio Page Route
     path: "/portfolio",
     element: <Portfolio />
+  }, 
+
+  {
+    //Portfolio -> Island Song Page
+    path: "/portfolio/island-song",
+    element: <PortfolioIslandSong />
+  }, 
+
+  {
+    //Portfolio -> Signing Bee Page
+    path: "/portfolio/signing-bee",
+    element: <PortfolioSigningBee />
   }, 
 
   {
