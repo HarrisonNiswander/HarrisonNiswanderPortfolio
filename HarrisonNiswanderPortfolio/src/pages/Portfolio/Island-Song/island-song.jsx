@@ -4,7 +4,6 @@ import Header from '../../../components/header/header.jsx';
 import Footer from '../../../components/footer/footer.jsx';
 import ImageCarousel from '../../../components/image-carousel/image-carousel.jsx';
 import islandSongLogo from '../../../images/portfolio-page/Island-Song/islandSongLogo.png';
-import islandSongLogoCircle from '../../../images/portfolio-page/Island-Song/logos/game_logo_360.png';
 import islandSongPlainLogo from '../../../images/portfolio-page/Island-Song/logos/logo_text_simple_360.png';
 import Steven from '../../../images/portfolio-page/Signing-Bee/creators/steven_picture.png';
 import Harrison from '../../../images/portfolio-page/Signing-Bee/creators/harrison_picture.jpg';
@@ -13,13 +12,16 @@ import Zack from '../../../images/portfolio-page/Signing-Bee/creators/zack_pictu
 import Riley from '../../../images/portfolio-page/Island-Song/creators/riley_picture.png';
 import Logan from '../../../images/portfolio-page/Island-Song/creators/logan_picture.png';
 import SteamLogo from '../../../images/portfolio-page/Island-Song/steam-logo.png';
+import Island from '../../../images/portfolio-page/Island-Song/island.png';
+import KeysPuzzle from '../../../images/portfolio-page/Island-Song/keysPuzzle.png';
+import CenterIsland from '../../../images/portfolio-page/Island-Song/centerIsland.png';
+
 
 const carouselImages = [
     { src: islandSongLogo, description: 'Island Song Logo' },
-    //{ src: signingBeeHome, description: 'Signing Bee Home Page' },
-    //{ src: signingBeeASL, description: 'Signing Bee ASL Reference Page' },
-    //{ src: signingBeePlay, description: 'Signing Bee Play Page' },
-    //{ src: signingBeeLogin, description: 'Signing Bee Login Page' },
+    { src: Island, description: 'Overhead shot of Island' },
+    { src: CenterIsland, description: 'Center Island' },
+    { src: KeysPuzzle, description: 'Keys Puzzle' },
 ];
 
 const islandSong = () => {
