@@ -12,7 +12,7 @@ import PortfolioSigningBee from "./pages/Portfolio/Signing-Bee/signing-bee.jsx";
 const router = createBrowserRouter([
   {
     //Home Page Route
-    path: "/home",
+    path: "/",
     element: <HomePage />
   }, 
 

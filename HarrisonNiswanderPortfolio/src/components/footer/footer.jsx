@@ -8,7 +8,7 @@ export default function footer() {
             {/*Navigation Menu*/}
             <nav class="footer_nav">
                 <ul>
-                    <Link to="/home">Home</Link>
+                    <Link to="/">Home</Link>
                     <Link to="/about">About</Link>
                     <Link to="/portfolio">Portfolio</Link>
                     <Link to="/contact">Contact</Link>
@@ -17,7 +17,7 @@ export default function footer() {
 
                 <ul class="footer_copyright">
                     {/*Image*/}
-                    <Link to="/home">
+                    <Link to="/">
                         <img src={HN_SignatureW} alt="Harrison Niswander Signature" height={75} width={150}/>
                         
                     </Link>
