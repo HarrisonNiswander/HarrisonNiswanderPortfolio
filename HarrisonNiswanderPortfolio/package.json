@@ -1,7 +1,7 @@
 {
   "name": "package.json",
   "private": true,
-  "homepage": "http://HarrisonNiswander.github.io/HarrisonNiswanderPortfolio/",
+  "homepage": "https://HarrisonNiswander.github.io/HarrisonNiswanderPortfolio/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
