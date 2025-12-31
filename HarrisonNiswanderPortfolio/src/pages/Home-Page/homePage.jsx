@@ -22,11 +22,11 @@ const homePage = () => {
     navigate('/contact'); 
   };
 
-  /*
+  
   const ultimatePageClick = () => {
     navigate('/lime-city-ultimate'); 
   };
-  */
+  
 
   return (
     <div>
@@ -73,7 +73,7 @@ const homePage = () => {
 
             </div>  {/* Contact Page */}
 
-            <div className="ultimate">
+            <div className="ultimate" onClick={ultimatePageClick}>
               <h1>Lime City<br/>Ultimate</h1>
 
             </div>  {/* Lime City Ultimate Page */}
