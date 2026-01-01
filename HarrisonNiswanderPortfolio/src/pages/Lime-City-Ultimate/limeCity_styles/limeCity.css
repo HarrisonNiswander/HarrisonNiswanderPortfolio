@@ -14,4 +14,50 @@ body {
 header {
   margin-left: 1.3em;
   margin-right: 1.3em;
+}
+
+.lcu-h1 {
+  padding: 1em;
+  font-family: Trebuchet MS, sans-serif;
+  font-weight: 700;
+  font-size: clamp(1.75rem, 3vw, 2.5rem);
+  color: hsl(0, 0%, 0%);
+}
+
+.lcu-h2 {
+  padding-top: 1em;
+  font-family: Trebuchet MS, sans-serif;
+  font-weight: 700;
+  font-size: clamp(1.75rem, 3vw, 1.5rem);
+  color: hsl(0, 0%, 0%);
+}
+
+.figcaption {
+  font-family: Trebuchet MS, sans-serif;
+  font-weight: 400;
+  font-size: clamp(1.75rem, 3vw, 1rem);
+  color: hsl(0, 0%, 0%);
+  align-self: center;
+  justify-self: center;
+}
+
+.lcu_logo {
+  border-radius: 10%;
+  border-width: 1em;
+  box-shadow: 4px 4px 10px hsl(0, 0%, 0%);
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
+  margin: auto;
+}
+
+.youtube {
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
+  margin: auto;
+}
+
+.youtube:hover {
+  transform: scale(1.05);
 }/*# sourceMappingURL=limeCity.css.map */
