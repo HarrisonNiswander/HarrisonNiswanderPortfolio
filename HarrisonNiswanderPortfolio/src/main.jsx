@@ -8,6 +8,7 @@ import Contact from "./pages/Contact/contact.jsx";
 import NotFound from "./pages/Not-Found-Page/notFoundPage.jsx";
 import PortfolioIslandSong from "./pages/Portfolio/Island-Song/island-song.jsx";
 import PortfolioSigningBee from "./pages/Portfolio/Signing-Bee/signing-bee.jsx";
+import LimeCity from "./pages/Lime-City-Ultimate/limeCityUltimate.jsx"
 
 const router = createBrowserRouter([
   {
@@ -44,6 +45,12 @@ const router = createBrowserRouter([
     //Contact Page Route
     path: "/contact",
     element: <Contact />
+  },
+
+  {
+    //Lime City Ultimate Page Route
+    path: "/lime-city-ultimate",
+    element: <LimeCity />
   },
 
   {
