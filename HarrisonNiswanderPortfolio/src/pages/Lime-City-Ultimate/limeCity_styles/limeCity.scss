@@ -69,3 +69,29 @@ header{
 .youtube:hover{
     transform: scale(1.05);
 }
+
+/* Styles for screens smaller than 700px */
+@media screen and (max-width: 900px) {
+    .lcu_logo{
+        width: 60%;
+        height: 50%
+    }
+
+    .youtube{
+        width: 60%;
+        height: 50%
+    }
+
+    .lcu-h1{
+        font-size: 1.2em !important;
+        text-align: center;
+    }
+
+    .lcu-h2{
+        font-size: 1em !important;
+    }
+
+    .figcaption{
+        text-align: center;
+    }
+}
