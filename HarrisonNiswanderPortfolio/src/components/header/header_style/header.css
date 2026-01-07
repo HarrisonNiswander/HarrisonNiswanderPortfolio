@@ -49,9 +49,8 @@
     height: 2.8em;
   }
   .header_nav ul {
-    font-size: 1.2em;
-    gap: 1.5vw;
-    gap: 5%;
+    font-size: 1em;
+    gap: 3%;
     padding: 0 1rem;
   }
   .header_nav ul img {
