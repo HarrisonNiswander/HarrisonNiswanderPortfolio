@@ -35,7 +35,7 @@ header {
   transform: scale(1.05);
 }
 
-.title-logo {
+.title-logo-is {
   display: flex;
   justify-self: center;
   margin: 0;
@@ -191,4 +191,21 @@ table, th, td {
 
 .steam-logo:hover {
   transform: scale(1.05);
+}
+
+@media screen and (max-width: 900px) {
+  .steam-logo {
+    transform: scale(60%);
+  }
+  .creators-container-is {
+    flex-direction: column;
+  }
+  .is-titles {
+    text-align: center;
+  }
+  .title-logo-is {
+    transform: scale(60%);
+    justify-self: center !important;
+    align-self: center !important;
+  }
 }/*# sourceMappingURL=island-song.css.map */

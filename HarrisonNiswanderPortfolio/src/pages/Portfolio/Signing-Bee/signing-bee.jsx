@@ -53,7 +53,7 @@ const signingBee = () => {
         <br/>
 
         <div className="sb-about">
-            <h2>About the Project</h2>
+            <h2 className="sb-titles">About the Project</h2>
 
             <p>
                 Signing Bee was made in Fall 2025 at Purdue University Fort Wayne as a semester-long 
@@ -112,7 +112,7 @@ const signingBee = () => {
         <br/><br/>
 
         <div className="creators-background">
-            <h2>Meet the Creators</h2>
+            <h2 className="sb-titles">Meet the Creators</h2>
 
             <div className="creators-container">
                 
@@ -146,7 +146,7 @@ const signingBee = () => {
         <br/><br/>
 
         <div className="github">
-            <h2>Github Repository</h2>
+            <h2 className="sb-titles">Github Repository</h2>
             <img src={githubBlack} alt="GitHub Logo" height={150} width={400} className="github-logo"
                 onClick={() => window.open("https://github.com/stevenlagoy/Signing-Bee", "_blank")}
             />

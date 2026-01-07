@@ -92,10 +92,14 @@ header {
 
 @media screen and (max-width: 900px) {
   .image {
-    -o-object-fit: fill;
-       object-fit: fill;
+    -o-object-fit: initial;
+       object-fit: initial;
   }
   .portfolio-font {
     font-size: 1.5em !important;
+  }
+  .card {
+    justify-self: center;
+    align-self: center;
   }
 }/*# sourceMappingURL=portfolio.css.map */

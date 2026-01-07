@@ -245,4 +245,19 @@ table, th, td {
 
 .link-logo:hover {
   transform: scale(1.05);
+}
+
+@media screen and (max-width: 900px) {
+  .creators-container {
+    flex-direction: column;
+  }
+  .sb-titles {
+    text-align: center;
+  }
+  .link-logo {
+    transform: scale(60%);
+  }
+  .github-logo {
+    transform: scale(50%);
+  }
 }/*# sourceMappingURL=signing-bee.css.map */
