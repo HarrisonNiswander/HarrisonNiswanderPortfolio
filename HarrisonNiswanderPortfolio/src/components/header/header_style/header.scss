@@ -55,7 +55,7 @@
 
 }
 
-/* Styles for screens smaller than 600px */
+/* Styles for screens smaller than 700px */
 @media screen and (max-width: 700px) {
     .header_nav
     {    
@@ -68,8 +68,6 @@
             padding: 0 1rem; 
 
             img{
-                //height: 1.2em;
-                //width: 2.4em;
                 justify-self: center;
                 padding-left: 0 !important;
             }

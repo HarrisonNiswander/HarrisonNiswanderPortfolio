@@ -43,7 +43,7 @@
   width: 4em;
 }
 
-/* Styles for screens smaller than 600px */
+/* Styles for screens smaller than 700px */
 @media screen and (max-width: 700px) {
   .header_nav {
     height: 2.8em;
