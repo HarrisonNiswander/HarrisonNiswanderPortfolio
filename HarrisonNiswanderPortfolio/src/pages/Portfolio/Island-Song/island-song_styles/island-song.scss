@@ -45,9 +45,12 @@ header{
 //Title Section ---------------------------------------------------------------------------
 .title-logo-is
 {
-    display: flex;
-    justify-self: center;
-    margin: 0;
+    display: block;
+    justify-self: center !important;
+    //margin: 0;
+    justify-content: center !important;
+    align-self: center!important;
+    align-content: center !important;
 }
 
 .title-container{
@@ -62,6 +65,8 @@ header{
     box-shadow: 0 4px 8px c.$black;
     width: 70%;
     justify-self: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 //About Section ---------------------------------------------------------------------------
@@ -154,6 +159,8 @@ table, th, td {
     width: 97%;
     justify-self: center;
     padding-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .creator-card{
@@ -195,6 +202,8 @@ table, th, td {
     display: flex;
     flex-direction: column;
     gap: 1em;
+    margin-left: auto;
+    margin-right: auto;
 
     h2{
         justify-self: center;
@@ -235,6 +244,26 @@ table, th, td {
         transform: scale(60%);
         justify-self: center !important;
         align-self:center !important;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
         
+    }
+
+    .title-logo-is img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 80%;   /* limits size on small screens */
+        height: auto;
+    }
+
+    .title-container{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        width: 80%;
+
     }
 }
