@@ -11,11 +11,11 @@ export default function header() {
             </header>
             
             {/*Navigation Menu*/}
-            <nav class="header_nav">
+            <nav className="header_nav">
                 <ul>
                     {/*Image*/}
                     <Link to="/">
-                        <img src={HN_Signature} alt="Harrison Niswander Signature" height={50} width={130}/>
+                        <img src={HN_Signature} alt="Harrison Niswander Signature"/>
                     </Link>
 
                     <Link to="/">Home</Link>

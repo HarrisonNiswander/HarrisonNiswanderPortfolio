@@ -34,7 +34,7 @@ const homePage = () => {
 
       {/* Header Section */}
       <header>
-        <h1>Welcome to Harrison Niswander's Portfolio!</h1>
+        <h1 className="home-title">Welcome to Harrison Niswander's Portfolio!</h1>
 
         <section className="intro">
           <h3>
@@ -64,8 +64,6 @@ const homePage = () => {
             </div>  {/* Portfolio Page */}
 
           </ul>  {/* Row 1 */}
-
-          <br/>{/* Break */}
 
           <ul className="row2">
             <div className="contact" onClick={contactPageClick}>

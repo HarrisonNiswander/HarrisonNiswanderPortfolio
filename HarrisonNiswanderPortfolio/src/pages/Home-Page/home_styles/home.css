@@ -35,13 +35,14 @@ header {
   justify-content: space-evenly;
   padding-right: 1.3em;
   padding-left: 1.3em;
+  padding-bottom: 1em;
 }
 
 .port, .ultimate, .contact, .about {
   display: flex;
   flex-direction: row;
   background-color: hsl(0, 0%, 0%);
-  min-height: 10em;
+  min-height: 7em;
   max-height: 12em;
   width: 45%;
   height: 100%;
@@ -112,10 +113,21 @@ header {
   opacity: 0.7;
 }
 
+.home-title {
+  font-family: Trebuchet MS, sans-serif;
+  font-weight: 700;
+  font-size: 2em !important;
+  line-height: 1.2;
+  color: hsl(0, 0%, 0%);
+  display: flex;
+  text-align: center;
+  padding-top: 1em;
+}
+
 h1 {
   font-family: Trebuchet MS, sans-serif;
   font-weight: 700;
-  font-size: clamp(1.75rem, 3vw, 1.5rem);
+  font-size: 3vw;
   line-height: 1.2;
   margin: 1.5em 0 0.4em;
   color: hsl(0, 0%, 0%);
@@ -144,5 +156,21 @@ h3 {
   }
   100% {
     transform: translateX(0) scale(1); /* End in its natural position */
+  }
+}
+/* Styles for screens smaller than 700px */
+@media screen and (max-width: 900px) {
+  .outermost-container {
+    display: grid;
+  }
+  .row1, .row2 {
+    flex-direction: column;
+    gap: 1em;
+  }
+  .port, .ultimate, .contact, .about {
+    width: 75%;
+  }
+  h1 {
+    font-size: 3.5vw !important;
   }
 }/*# sourceMappingURL=home.css.map */
