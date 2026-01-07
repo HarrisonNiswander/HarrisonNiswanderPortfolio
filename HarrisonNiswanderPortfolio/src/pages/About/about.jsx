@@ -66,7 +66,7 @@ const about = () => {
           {active === 'Academics' && ( 
             <>
               <div className="about-container">
-                <h1>Academics</h1>
+                <h1 className="about-card-title-font">Academics</h1>
                 <div className="about-card">
                   <img src={Hnhs} alt="Huntington North High School" width={175} height={175} className="school-logo"/>
                   <div className="about-content">
@@ -104,7 +104,7 @@ const about = () => {
           {active === 'Athletics' && (
             <>
               <div className="about-container">
-                <h1>Athletics</h1>
+                <h1 className="about-card-title-font">Athletics</h1>
                 <div className="about-card">
                   <img src={Hnhs} alt="Huntington North High School" width={175} height={175} className="school-logo"/>
                   <div className="about-content">
@@ -170,7 +170,7 @@ const about = () => {
           {active === 'Work' && (
             <>
               <div className="about-container">
-                <h1>Work Experience</h1>
+                <h1 className="about-card-title-font">Work Experience</h1>
                 <div className="about-card">
                   <img src={Tincaps} alt="Fort Wayne Tincaps" width={175} height={175} className="school-logo"/>
                   <div className="about-content">
@@ -223,7 +223,7 @@ const about = () => {
           {active === 'Volunteering' && (
             <>
               <div className="about-container">
-                <h1>Volunteering</h1>
+                <h1 className="about-card-title-font">Volunteering</h1>
                 <div className="about-card">
                   <img src={FirstLegoLeague} alt="First Lego League" width={175} height={175} className="school-logo"/>
                   <div className="about-content">
