@@ -45,7 +45,7 @@ header{
 //Title Section ---------------------------------------------------------------------------
 .title-logo-is
 {
-    display: flex;
+    display: block;
     justify-self: center !important;
     //margin: 0;
     justify-content: center !important;
@@ -256,5 +256,14 @@ table, th, td {
         margin-right: auto;
         max-width: 80%;   /* limits size on small screens */
         height: auto;
+    }
+
+    .title-container{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        width: 80%;
+
     }
 }
