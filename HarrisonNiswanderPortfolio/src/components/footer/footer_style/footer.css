@@ -6,7 +6,7 @@
   width: 100%;
   padding: 0;
   background-color: hsl(0, 0%, 100%) !important;
-  position: absolute;
+  position: relative;
 }
 .footer_nav ul {
   display: flex;

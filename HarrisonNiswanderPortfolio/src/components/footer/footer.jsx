@@ -6,7 +6,7 @@ export default function footer() {
     return (
         <>
             {/*Navigation Menu*/}
-            <nav class="footer_nav">
+            <nav className="footer_nav">
                 <ul>
                     <Link to="/">Home</Link>
                     <Link to="/about">About</Link>
@@ -15,14 +15,14 @@ export default function footer() {
 
                 </ul>
 
-                <ul class="footer_copyright">
+                <ul className="footer_copyright">
                     {/*Image*/}
                     <Link to="/">
                         <img src={HN_SignatureW} alt="Harrison Niswander Signature" height={75} width={150}/>
                         
                     </Link>
 
-                    <p class="copyright_p">© 2025 Harrison Niswander</p>
+                    <p className="copyright_p">© 2025 Harrison Niswander</p>
 
                 </ul>
                 
