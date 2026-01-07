@@ -38,7 +38,7 @@ const islandSong = () => {
       <button className="back-button" onClick={handleClick}>Back</button>
 
       <div className="title-container">
-        <img src={islandSongPlainLogo} alt="Island Song Circle Logo" height={250} width={450} className="title-logo"/>
+        <img src={islandSongPlainLogo} alt="Island Song Circle Logo" height={250} width={450} className="title-logo-is"/>
 
       </div>
 
@@ -52,7 +52,7 @@ const islandSong = () => {
       <br/>
 
       <div className="sb-about">
-        <h2>About Island Song</h2>
+        <h2 className="is-titles">About Island Song</h2>
 
         <p>
           Island Song was made from Fall 2025 thru Spring 2026 at Purdue University Fort Wayne 
@@ -113,7 +113,7 @@ const islandSong = () => {
       <br/><br/>
 
       <div className="creators-background-is">
-        <h2>Meet Crustacean Works</h2>
+        <h2 className="is-titles">Meet Crustacean Works</h2>
         
         <div className="creators-container-is">  
           <div className="creator-card">

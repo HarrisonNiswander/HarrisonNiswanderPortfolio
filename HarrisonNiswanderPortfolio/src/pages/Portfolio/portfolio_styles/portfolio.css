@@ -26,6 +26,7 @@ header {
   padding-bottom: 0.6em;
   color: hsl(0, 0%, 0%);
   justify-self: center;
+  text-align: center;
 }
 
 .image {
@@ -48,6 +49,7 @@ header {
   transition: transform 0.2s;
   display: flex;
   flex-direction: row;
+  padding-left: 1em;
 }
 
 .card:hover {
@@ -86,4 +88,18 @@ header {
 
 .card:hover .description {
   visibility: visible;
+}
+
+@media screen and (max-width: 900px) {
+  .image {
+    -o-object-fit: initial;
+       object-fit: initial;
+  }
+  .portfolio-font {
+    font-size: 1.5em !important;
+  }
+  .card {
+    justify-self: center;
+    align-self: center;
+  }
 }/*# sourceMappingURL=portfolio.css.map */

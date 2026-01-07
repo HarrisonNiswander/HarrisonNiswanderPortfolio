@@ -275,3 +275,24 @@ table, th, td {
 .link-logo:hover{
     transform: scale(1.05);
 }
+
+//Deal with different screen sizes-------------------------------------------------------------------
+
+@media screen and (max-width: 900px) {
+    .creators-container{
+        flex-direction: column;
+    }
+
+    .sb-titles{
+        text-align: center;
+    }
+
+    .link-logo{
+        transform: scale(60%);
+    }
+
+    .github-logo{
+        transform: scale(50%);
+    }
+
+}

@@ -31,6 +31,7 @@ header{
     padding-bottom: 0.6em;
     color: c.$black;
     justify-self: center;
+    text-align: center;
 }
 
 .image{
@@ -53,6 +54,9 @@ header{
     transition: transform 0.2s;
     display: flex;
     flex-direction: row;
+    //align-items: center;
+    //justify-content: center;
+    padding-left: 1em;
 
 }
 
@@ -95,3 +99,19 @@ header{
 .card:hover .description{
     visibility: visible;
 }
+
+@media screen and (max-width: 900px) {
+    .image{
+        object-fit:initial;
+    }
+
+    .portfolio-font{
+        font-size: 1.5em !important; 
+    }
+
+    .card{
+        justify-self: center;
+        align-self: center;
+
+    }
+};

@@ -30,7 +30,7 @@ body {
 .contact-font {
     font-family: f.$title-font;
     font-weight: 700;
-    font-size: 4em;
+    font-size: 3em !important;
     line-height: 1.2;
     margin: auto;
     padding-top: 0.5em;
@@ -60,6 +60,7 @@ body {
     flex-direction: column;
     align-items: center;
     z-index: 0 !important;
+    flex-wrap: wrap;
     //padding:0.5em;
 }
 
@@ -106,5 +107,29 @@ body {
   border-color: black transparent transparent transparent;
 }
 
+@media screen and (max-width: 900px) {
+    .row {
+    flex-direction: column;
+  }
 
+  .links {
+    height: auto;    /* allow the layout to size naturally */
+  }
+
+  .icon {
+    padding: 0;      /* remove extra internal spacing */
+  }
+
+  .icon img {
+    margin: 0;       /* ensure no margin around the images */
+    display: block;
+    max-width: 100%;
+    height: auto;
+    
+  }
+
+  .contact-font{
+    text-align: center;
+  }
+}
 
