@@ -5,6 +5,7 @@ import HomePage from "./pages/Home-Page/homePage.jsx";
 import About from "./pages/About/about.jsx";
 import Portfolio from "./pages/Portfolio/portfolio.jsx";
 import Contact from "./pages/Contact/contact.jsx";
+import Riley from "./pages/Riley/riley.jsx";
 import NotFound from "./pages/Not-Found-Page/notFoundPage.jsx";
 import PortfolioIslandSong from "./pages/Portfolio/Island-Song/island-song.jsx";
 import PortfolioSigningBee from "./pages/Portfolio/Signing-Bee/signing-bee.jsx";
@@ -45,6 +46,12 @@ const router = createBrowserRouter([
     //Contact Page Route
     path: "/contact",
     element: <Contact />
+  },
+
+  {
+    //Riley Page Route
+    path: "/riley",
+    element: <Riley />
   },
 
   {
