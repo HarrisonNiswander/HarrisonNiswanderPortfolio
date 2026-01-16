@@ -12,6 +12,7 @@ import Stoffel from '../../images/about-page/huntington-shield.png';
 import HorizonLeague from '../../images/about-page/horizonLeague.png';
 import Pfw2 from '../../images/about-page/pfw2.png';
 import Rv from '../../images/about-page/rv.png';
+import insomniaCookies from '../../images/about-page/insomnia-cookies.jpg';
 
 const about = () => {
   const [active, setActive] = useState(null);
@@ -130,6 +131,20 @@ const about = () => {
                       <li>Currently Hold 9 School Records</li>
                       <li>Horizon League Conference Champion (DMR 2024)</li>
                       <li>Horizon League Conference Runner-Up (DMR 2025 & 3k Steeple 2024)</li>
+                      
+                    </ul>
+                  </div>
+                </div>
+
+                <br/>
+
+                <div className="about-card">
+                  <img src={insomniaCookies} alt="Insomnia Cookies" width={175} height={175} className="school-logo"/>
+                  <div className="about-content">
+                    <h2>Insomnia Cookies · Insomnia Athlete</h2>
+                    <ul>
+                      <li>NIL Deal with Insomnia Cookies for 2024-2025 Season</li>
+                      <li>Two monthly posts on social media</li>
                       
                     </ul>
                   </div>
