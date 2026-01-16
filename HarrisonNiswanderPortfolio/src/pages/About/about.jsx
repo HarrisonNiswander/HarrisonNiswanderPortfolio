@@ -144,7 +144,7 @@ const about = () => {
                     <h2>Insomnia Cookies · Insomnia Athlete</h2>
                     <ul>
                       <li>NIL Deal with Insomnia Cookies for 2024-2025 Season</li>
-                      <li>Two monthly posts in exchange for cookies</li>
+                      <li>Two monthly posts on social media</li>
                       
                     </ul>
                   </div>
